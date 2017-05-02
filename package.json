@@ -1,0 +1,27 @@
+{
+  "name": "telify-backend",
+  "version": "1.0.0",
+  "description": "Backend for Telify app, a web app that allows you to choose a song and play it over the phone via a call",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrequenciDigital/telify-backend.git"
+  },
+  "author": "Liban Mohamed <liban.moh99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrequenciDigital/telify-backend/issues"
+  },
+  "homepage": "https://github.com/FrequenciDigital/telify-backend#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.17.1",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "twilio": "^2.11.1"
+  }
+}
